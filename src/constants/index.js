@@ -26,6 +26,8 @@ import {
     tripguide,
     threejs,
     ptf,
+    amz,
+    nwz,
   } from "../assets";
   
  const navLinks = [
@@ -61,7 +63,7 @@ import {
       icon: backend,
     },
     {
-      title: "Video Editing(hobby)",
+      title: "Videography",
       icon: creator,
     },
   ];
@@ -71,10 +73,10 @@ import {
       name: "HTML 5",
       icon: html,
     },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
     {
       name: "JavaScript",
       icon: javascript,
@@ -95,10 +97,10 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     // {
     //   name: "MongoDB",
     //   icon: mongodb,
@@ -143,61 +145,19 @@ import {
       points: [
         "Organised events related to Entrepreneurship & startups.",
         "Collaborating and marketing with the team for the events which gave me exposure to public speaking.",
-        "Soon organising an InternFair with the team in an effort to connect students like me with exceptional internship opportunities tailored to their skills & interests.",
+        "Soon organising an InternFair with the team in an effort to connect students with exceptional internship opportunities tailored to their skills & interests.",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "I thought it was impossible to make a website as beautiful as our product, but Sawan proved me wrong.",
+      name: "Monika Sadawarti",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -205,7 +165,7 @@ import {
     {
       name: "3D Portfolio",
       description:
-        "A 3D portfolio showcasing my journey so far made using Three.js which was completttely new and interesting to work with.",
+        "I made a 3D portfolio showcasing my journey so far using Three.js which was incredibly fun to work with.",
       tags: [
         {
           name: "ReactJS",
@@ -221,50 +181,46 @@ import {
         },
       ],
       image: ptf,
-      source_code_link: "https://github.com/sawanx0/Portfolio-2",
+      source_code_link: "https://github.com/sawankj/Portfolio-2",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Amazon Clone",
+      description:
+        "I built a RESPONSIVE front-end Amazon.com home-page clone using HTML & CSS",
+      tags: [
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: amz,
+      source_code_link: "https://github.com/sawankj/amazon-clone",
+    },
+    {
+      name: "News App using API",
+      description:
+        "I built a News App which retreives latest news articles from all over the web using NewsAPI service",
+      tags: [
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nwz,
+      source_code_link: "https://github.com/sawankj/news-API",
+    },
   ];
   
   export { navLinks, services, technologies, experiences, testimonials, projects };
