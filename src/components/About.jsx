@@ -47,10 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software developer with experience in
-        Java, JavaScript, and knowledge of frameworks like React, Node.js,
-        Three.js & Data Structures & Algorithms. I'm a quick learner and wish to create user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software developer with experience in Java, C, C++, HTML, CSS, JavaScript, 
+        ReactJS, SQL, Data Structures and Algorithms. I grasp new concepts and ideas quickly 
+        and wish to collaborate and create beautiful as well as efficient Websites and Softwares.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
