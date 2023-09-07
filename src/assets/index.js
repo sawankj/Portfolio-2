@@ -33,6 +33,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ptf from "./ptf.png";
+import amz from "./amazon-clone.png";
+import nwz from "./news-api.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   jobit,
   tripguide,
   ptf,
+  amz,
+  nwz,
 };
