@@ -72,8 +72,8 @@ const Experience = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 mx-auto text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I haven't found an internship yet but meanwhile, these are my roles in my College Societies I've been involved with
-        which have taught me good management, team-work & communication skills
+        I haven't found an internship yet but meanwhile, these are my roles in the College Societies I've been involved with
+        which have taught me good management, team-work and communication skills.
       </motion.p>
 
 
